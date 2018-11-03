@@ -24,6 +24,9 @@
 .top-header .header-col{
   width:33%;
 }
+.top-header .header-bottom .header-col:first-child{
+  color:rgba(255,255,255,0.5);
+}
 
 .top-header .header-col:last-child{
   text-align:right;
