@@ -1,4 +1,9 @@
 body{
   font-family: 'Open Sans', sans-serif;
   padding-top:60px;
+  padding-bottom:60px;
 }
+
+/*
+  body의 padding은 탑헤더,네비 높이만큼 가려지기때문에 그만큼 띄워줘서 컨텐츠가 보이게하기위함.
+*/
