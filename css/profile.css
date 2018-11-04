@@ -1,0 +1,75 @@
+.top-header-transparent{
+  background-color:transparent;
+}
+
+/*
+ 1.vh 는 00%의 스크린 전체높이를 의미
+ 2.top:-60px으로 body의 padding-top 60px를 상쇄
+ 3.position:relative를 줬기때문에 락걸린걸 풀고,패딩을 줄수있음
+*/
+.profile .profile-header{
+  height:80vh;
+  background:url('../images/profileBackground.png');
+  background-position:center center;
+  width:100%;
+  position:relative;
+  top:-60px;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/*
+.profile-header-container img의 margin-bottom을 주면 이미지가 위로올라가짐
+때문에 여기서 bottom값을 더작게줘서 마진을 조정
+*/
+.profile-header .profile-header-container{
+  text-align:center;
+  position:relative;
+  bottom:-60px;
+}
+
+.profile-header-container img{
+  width:100px;
+  height:100px;
+  border-radius: 50%;
+  margin-bottom:12px;
+}
+
+.profile .profile-container{
+  margin-top:20px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-container input{
+  padding:5px;
+  margin-bottom:20px;
+}
+
+.profile-actions{
+  display:flex;
+}
+
+.profile-actions .profile-action{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right:15px;
+  cursor:pointer;
+}
+
+.profile-action-circle{
+  background:#f2f2f2;
+  padding:15px;
+  border-radius:50%;
+  color:#523737;
+  margin-bottom:15px;
+}
+
+.profile-action-title{
+  font-size:14px;
+  font-weight: 600;
+}
