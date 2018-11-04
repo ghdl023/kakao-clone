@@ -43,6 +43,10 @@
   color:#b4b4b4;
 }
 
+/*
+transition:all 로 해버리면 새로고침할때마다
+border-radius에 이상이생김 그래서 color,background을직접 지정
+*/
 .chat-btn{
   width:60px;
   height:60px;
@@ -57,11 +61,12 @@
   font-size:20px;
   color:#523737;
   box-shadow:0 3px 10px rgba(0,0,0,0.2);
-  transition:all .6s ease-in-out;
+  transition:color .6s, background .6s, transform 0.5s ease-in-out;
   cursor:pointer;
 }
 
 .chat-btn:hover{
   color:white;
   background:#523737;
+  transform:rotateY(360deg);
 }
