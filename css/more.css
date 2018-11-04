@@ -50,6 +50,9 @@
   padding:15px;
   padding-top:20px;
 }
+.more-options a{
+  text-decoration: none;
+}
 
 .more-options .more-option{
   display:flex;
