@@ -57,4 +57,11 @@
   font-size:20px;
   color:#523737;
   box-shadow:0 3px 10px rgba(0,0,0,0.2);
+  transition:all .6s ease-in-out;
+  cursor:pointer;
+}
+
+.chat-btn:hover{
+  color:white;
+  background:#523737;
 }
